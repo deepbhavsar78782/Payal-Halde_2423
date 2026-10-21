@@ -1,0 +1,33 @@
+{
+  "name": "payal-halde-portfolio",
+  "version": "1.0.0",
+  "description": "Professional Portfolio Website for Payal Halde - Graphic Designer",
+  "main": "server/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "build": "npm --prefix client run build",
+    "dev": "node server/server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "graphic-designer",
+    "payal-halde",
+    "gallery",
+    "admin-dashboard",
+    "dark-mode"
+  ],
+  "author": "Payal Halde",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.4.0"
+  }
+}
